@@ -4,7 +4,7 @@ require 'open-uri'
 
 get '/' do
 
-	url = "http://www.930.com/concerts/"
+	url = "xxx"
 
 	data = Nokogiri::HTML(open(url))
 
